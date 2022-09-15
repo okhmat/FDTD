@@ -1,6 +1,7 @@
 # FDTD
 
 Implementation of Finite Difference Time Domain Method for Maxwell's equations. 
+Below is the animation of a wave propagating in 1D along z-axis in free space. Different boundary conditions are illustrated at work. Details of their implementation can be found in the notes. 
 
 
 Perfect Boundary Condition | Perfect Electric Conductor BC | Perfect Magnetic Conductor BC
