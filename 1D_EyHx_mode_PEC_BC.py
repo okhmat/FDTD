@@ -77,14 +77,14 @@ if __name__=="__main__":
     # wrap up into a function for animation
 
     fig, ax = plt.subplots()
-    ax.plot([int(Nz/3)*dz, int(Nz/3)*dz], [-50, 50], color='green')
+    ax.plot([int(Nz/3)*dz, int(Nz/3)*dz], [-80, 80], color='green')
     plt.text(int(Nz/3)*dz+1,-48, 'source \n location', fontsize=8)
     line0, = ax.plot(np.arange(0, (Nz+1)*dz, dz), Ey, c='b', label=r'$E_y,~[\frac{V}{m}]$')
     line1, = ax.plot(np.arange(0, (Nz)*dz, dz)+dz/2, Hx, c='r', label=r'$\tilde{H}_x = \eta_0 H_x = E_y,~[\frac{V}{m}]$')
     plt.xlabel('distance, m')
     plt.ylabel('amplitude of Ey, V/m')
 
-    plt.ylim([-50, 50])
+    plt.ylim([-80, 80])
     plt.legend()
     plt.show()
 
